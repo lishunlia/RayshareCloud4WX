@@ -8,7 +8,8 @@ function Public(){
           return{
               //w:可视区域的宽度    h:可视区域的高度
               w:document.documentElement.clientWidth,
-              h:document.documentElement.clientHeight
+              h1:document.documentElement.scrollHeight,
+							h2:document.documentElement.clientHeight
           }
       }
   }
